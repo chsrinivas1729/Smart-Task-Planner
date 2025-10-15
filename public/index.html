@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Task Planner</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Task Planner</h1>
+    <p class="subtitle">Break down your goals into actionable tasks with deadlines</p>
+
+    <form id="goalForm">
+      <input type="text" id="goalInput" name="goalInput" placeholder="e.g., Launch a product in 2 weeks" required>
+      <button type="submit">
+        <span class="sparkle">✨</span>Generate Plan
+      </button>
+
+    </form>
+    
+    <div id="planOutput" class="plan-output"></div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
